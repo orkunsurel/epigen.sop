@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/rsurel/epigen.sop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## ABOUT
+Script in PHP+JS for get information of target through a web application, use $_SERVER functions and JS functions for get information of our client.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Plugin (WEBApps)
+in some web applications need to collect information from the client to perform tasks with this plugin will be easier to work with the variables you need.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+<?php
+include(__DIR__."/GetdataReport.Plugin.php");
+$data = new GetDataPlugin();
+echo "<br>IP               ".$data->ip();
+echo "<br>Operative System ".$data->os();
+echo "<br>Browser          ".$data->browser();
+echo "<br>Screen height    ".$data->height();
+echo "<br>Screen width     ".$data->width();
+echo "<br>Java enabled     ".$data->javaenabled();
+echo "<br>Cookie enabled   ".$data->cookieenabled();
+echo "<br>Language         ".$data->language();
+echo "<br>Architecture     ".$data->architecture();
+echo "<br>Device           ".$data->device();
+echo "<br>Country          ".$data->geo('country');
+echo "<br>Region           ".$data->geo('region');
+echo "<br>Continent        ".$data->geo('continent');
+echo "<br>City             ".$data->geo('city');
+echo "<br>Logitude         ".$data->geo('logitude');
+echo "<br>Latitude         ".$data->geo('latitude');
+echo "<br>Currency         ".$data->geo('currency');
+echo "<br>Provetor         ".$data->provetor();
+echo "<br>Agent            ".$data->agent();
+echo "<br>Referer          ".$data->referer();
+echo "<br>Date             ".$data->getdate();
+ ?>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rsurel/epigen.sop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

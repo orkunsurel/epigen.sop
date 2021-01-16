@@ -1,0 +1,38 @@
+*** VERSION 2.1 ***
+- HTML arayüz yenilendi
+- Veritabaný altyapýsý kuruldu
+- Site ismi sopSNP olarak deðiþtirildi
+- Site logosu tasarlandý (.BY © BERKAY SUREL)
+- Site favicon tasarlandý (Browser sekmesinde görünen küçük resim)
+- Site görsel tasarýmý logo temasýna uyarlandý
+- CSS stil dosyalarý özgün biçimde temaya göre yeniden yazýldý
+- Arama seçenekleri veritabaný ile entegre hale getirildi (custom checkbox)
+- Veritabený arayüzü ile sýnýrsýz arama seçeneði eklenebilir
+- Arama seçeneklerindeki faydalý bilgi giriþi esnek hale getirildi (faydalý bilgi linkin herhangi bir yerinde olabilir)
+- Page hit counter veritabanýna entegre edildi
+- Versiyon kontrolü veritabanýna entegre edildi
+- Site ismi veri tabanýna entegre edildi
+- Site logosu veritabanýna entegre edildi
+- Site favicon veritabanýna entegre edildi
+- Client Report (site kullanýcýlarý hakkýnda veri toplama ve raporlama özelliði) eklendi
+- Arama seçenekleri için Tercih motoru eklendi
+- Tercih motoru veritabanýna entegre edildi
+- Arama seçenekleri sýralamasý Tercih motoruna entegre edildi.
+- Otomatik seçim eklendi
+- Otomatik seçim Tercih motoruna entegre edildi (Tercih 25% fazla ise otomatik seçim)
+- Dinamik Arama Çubuðu eklendi
+- Arama çubuðuna Otomatik Küçük Harf özelliði eklendi
+
+
+*** VERSION 0.2 ***
+-HTML arayüz yenilendi
+-CSS still dosyalarý eklendi
+-6 farklý arama seçeneði (checkbox)
+-JScript page hit counter eklendi
+
+
+
+*** VERSION 0.1 ***
+-HTML arayüz
+-PHP tabanlý arama motoru
+-5 farklý arama seçeneði (checkbox)
